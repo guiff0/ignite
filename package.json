@@ -24,6 +24,7 @@
   },
   "scripts": {
     "start": "npx expo start --web --port=80"
+    "dev": "node bin/ignite"
     "compile": "tsc -p .",
     "typecheck": "tsc -p . --noEmit",
     "build": "yarn clean && yarn compile && yarn build:assets",
