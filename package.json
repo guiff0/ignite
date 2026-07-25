@@ -23,6 +23,7 @@
     "url": "https://github.com/infinitered/ignite"
   },
   "scripts": {
+    "start": "npm run web"
     "compile": "tsc -p .",
     "typecheck": "tsc -p . --noEmit",
     "build": "yarn clean && yarn compile && yarn build:assets",
